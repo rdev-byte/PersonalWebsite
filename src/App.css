@@ -1,38 +1,8 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Ubuntu', sans-serif;
-  /* Use the Ubuntu font for the whole page */
-}
-
-.App {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  position: relative;
-  /* Add relative positioning to the .App container */
-  background-image: url('https://free4kwallpapers.com/uploads/originals/2021/05/27/geometric-wallpaper.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  /* This will lock the background image */
-}
-
-/* Overlay with adjustable opacity */
-.overlay {
+.background-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .8);
-  /* Adjust the opacity by changing the last value (0.5 in this example) */
-  pointer-events: none;
-  /* Allows clicks to pass through the overlay to the content below */
-}
-
-/* Add a soft white glow to all text */
-.App * {
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  /* background-color: #FCFBF4; Change this to your desired background color */
 }

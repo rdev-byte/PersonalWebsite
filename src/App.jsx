@@ -63,7 +63,7 @@ function App() {
               <li>Python</li>
               <li>Libraries like pandas for data manipulation</li>
               <li>Frameworks like Flask and Django for web development</li>
-              <li>Libraries like NumPy for numerical computing</li>
+              <li>Libraries like NumPy for numerical computing and Flask for database interactions</li>
             </ul>
           )}
 
