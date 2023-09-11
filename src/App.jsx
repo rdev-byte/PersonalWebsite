@@ -24,7 +24,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* Include the Header component */}
       <Header />
 
       <h1>About Me</h1>

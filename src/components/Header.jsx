@@ -14,16 +14,18 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <Navbar color='' className='bg-light' sticky='top' expand='md'>
+        <Navbar color='' className='' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
-                <img
-                    src={Logo}
-                    alt=''
-                    className='float-start'
-                    width={'5%'}
-                    height={'10%'}
-                />
-                <h1 className='mt-1'>Hello, I'm Raphael...</h1>
+                <div className='logo-container'>
+                    <img
+                        src={Logo}
+                        alt=''
+                        className='float-start'
+                        width={'5%'}
+                        height={'10%'}
+                    />
+                    <h1 className='mt-1'>Hello, I'm Raphael...</h1>
+                </div>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
